@@ -1,0 +1,17 @@
+.App {
+  @apply flex flex-col justify-center items-center min-h-screen;
+  text-align: center;
+
+  background-color: #d5effe;
+}
+
+.App .Title {
+  @apply m-2 font-bold text-5xl;
+  line-height: 1.5;
+
+  color: #1b3f7d;
+}
+
+.App p {
+  @apply m-2;
+}

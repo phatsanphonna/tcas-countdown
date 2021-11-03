@@ -1,0 +1,17 @@
+.Timer {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.Timer h1,
+.Timer h2 {
+    @apply text-3xl font-bold;
+    @apply m-7 border-2 rounded-sm border-gray-700 px-4 py-2;
+}
+
+.Timer p {
+    @apply m-7 border-2 rounded-sm border-gray-700 px-4 py-2;
+}
